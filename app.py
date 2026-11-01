@@ -14,5 +14,9 @@ def about():
 def contact():
     return "Contact Page"
 
+@app.route("/services")
+def services():
+    return "Services Page"
+
 if __name__ == "__main__":
     app.run(debug=True)
