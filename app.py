@@ -22,6 +22,10 @@ def services():
 def logged_in_status():
     return "Logged in status"
 
+@app.route("/login")
+def login():
+    return "Login Page"
+
 
 if __name__ == "__main__":
     app.run(debug=True)
