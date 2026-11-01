@@ -19,8 +19,8 @@ def services():
     return "Services Page"
 
 @app.route("/logged in status")
-def logged in status():
-    return "logged in status
+def logged_in_status():
+    return "Logged in status"
 
 
 if __name__ == "__main__":
