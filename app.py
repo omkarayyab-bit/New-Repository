@@ -18,7 +18,7 @@ def contact():
 def services():
     return "Services Page"
 
-@app.route("/logged in status")
+@app.route("/logged_in_status")
 def logged_in_status():
     return "Logged in status"
 
@@ -26,6 +26,9 @@ def logged_in_status():
 def login():
     return "Login Page"
 
+@app.route("/Address")
+def address():
+    return "Address Page"
 
 if __name__ == "__main__":
     app.run(debug=True)
