@@ -18,5 +18,10 @@ def contact():
 def services():
     return "Services Page"
 
+@app.route("/logged in status")
+def logged in status():
+    return "logged in status
+
+
 if __name__ == "__main__":
     app.run(debug=True)
