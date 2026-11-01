@@ -30,5 +30,9 @@ def login():
 def address():
     return "Address Page"
 
+@app.route("/services1")
+def services1():
+    return "Services1 Page1"
+
 if __name__ == "__main__":
     app.run(debug=True)
